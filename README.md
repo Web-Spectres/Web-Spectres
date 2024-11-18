@@ -18,5 +18,5 @@ To inspire and innovate through digital creations, representing the excellence o
 <br>
 <br>
 <div align="center">
-  <strong><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f47b/512.gif" alt="👻" width="24" height="24"> Web Spectres – where the unseen becomes unforgettable.</strong>
+  <strong><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f47b/512.gif" alt="👻" width="15" height="15"> Web Spectres – where the unseen becomes unforgettable.</strong>
 </div>
