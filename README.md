@@ -14,3 +14,7 @@ We are **Web Spectres**, the coding wizards and creative thinkers of Sri Sanghab
 ---
 ## 🎯 **Our Mission**  
 To inspire and innovate through digital creations, representing the excellence of Sri Sanghabodhi College in the web development arena.  
+---
+
+
+**<img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f47b/512.gif" alt="👻" width="24" height="24"> Web Spectres – where the unseen becomes unforgettable.**  
