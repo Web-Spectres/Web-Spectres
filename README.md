@@ -7,8 +7,10 @@ Welcome to the official GitHub of **Web Spectres** – Sri Sanghabodhi College�
 
 ## 🏫 **Who We Are**  
 We are **Web Spectres**, the coding wizards and creative thinkers of Sri Sanghabodhi College.  
-- <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f47b/512.gif" alt="👻" width="16" height="16"> **Our Identity**: A fusion of vision, innovation, and teamwork.  
+- 👻 **Our Identity**: A fusion of vision, innovation, and teamwork.  
 - 🕸️ **Our Approach**: Crafting intuitive, responsive, and impactful digital solutions.  
 - 💡 **Our Spirit**: Like specters, we move silently, leaving an indelible mark in the digital realm.  
 
 ---
+## 🎯 **Our Mission**  
+To inspire and innovate through digital creations, representing the excellence of Sri Sanghabodhi College in the web development arena.  
