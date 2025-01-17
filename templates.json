@@ -1,0 +1,135 @@
+{
+    "projects": {
+        "Project1": {
+            "project_title": "Coming Soon...",
+            "project_img": "./imgs/logo.png"
+        },
+        "Project2": {
+            "project_title": "Coming Soon...",
+            "project_img": "./imgs/logo.png"
+        },
+        "Project3": {
+            "project_title": "Coming Soon...",
+            "project_img": "./imgs/logo.png"
+        },
+        "Project4": {
+            "project_title": "Coming Soon...",
+            "project_img": "./imgs/logo.png"
+        }
+    },
+    "board": [
+        {
+            "name": "G.K. Senuka Gunasekara",
+            "post": "President",
+            "img": "./imgs/board/1.png",
+            "img_alt": "Image contains a photo of the President of Web Spectres, G.K. Senuka Gunasekara",
+            "mid": 0
+        },
+        {
+            "name": "R.D.D. Vidunitha Chandradhasa",
+            "post": "Secretary",
+            "img": "./imgs/board/2.png",
+            "img_alt": "Image contains a photo of the Secretary of Web Spectres, R.D.D.Vidunitha Chandradhasa",
+            "mid": 1
+        },
+        {
+            "name": "I. Rashini Umandya Ilangasinghe",
+            "post": "Vice President",
+            "img": "./imgs/board/placeholder.png",
+            "img_alt": "Image contains a photo of the Vice President of Web Spectres, I.Rashini Umandya Ilangasinghe",
+            "mid": 2
+        },
+        {
+            "name": "Womuditha Wanigasundara",
+            "post": "-",
+            "img": "./imgs/board/placeholder.png",
+            "img_alt": "Image contains a photo of the  of Web Spectres, Womuditha Wanigasundara",
+            "mid": 3
+        },
+        {
+            "name": "---",
+            "post": "-",
+            "img": "./imgs/board/placeholder.png",
+            "img_alt": "Image contains a photo of the  of Web Spectres, ",
+            "mid": 4
+        },
+        {
+            "name": "---",
+            "post": "-",
+            "img": "./imgs/board/placeholder.png",
+            "img_alt": "Image contains a photo of the  of Web Spectres, ",
+            "mid": 5
+        },
+        {
+            "name": "---",
+            "post": "-",
+            "img": "./imgs/board/placeholder.png",
+            "img_alt": "Image contains a photo of the  of Web Spectres, ",
+            "mid": 6
+        }
+    ],
+    "updates": {
+        "u3": {
+            "id": 3,
+            "title": "Project Release: Coverage",
+            "excerpt": "Our second project, Coverage is here to connect school events to the world.",
+            "long_content": "Coverage is our second project. It's a continuing project in which we give media coverage to all events held in our school and broadcast them live for all audiences. Visit the website {https://something.vercel.app |- https://something.vercel.app} to enjoy any live broadcast as they happen.",
+            "img": "",
+            "date": "10/02/2025"
+        },
+        "u2": {
+            "id": 2,
+            "title": "Project Release: Visual Sonic",
+            "excerpt": "Our new project, Visual Sonic was released recently.",
+            "long_content": "Our first project, Visual Sonic was released on the 31st January of 2025. Visual Sonic is a school specific gallery developed through the individual effort of our president, Senuka Gunasekara. The Visual Sonic gallery features exclusive photos and videos of our school's past events. This gallery will be continously updated for every memorable event hosted by and in our school. More exciting updates coming soon. Peace out!",
+            "img": "",
+            "date": "31/01/2025"
+        },
+        "u1": {
+            "id": 1,
+            "title": "Official Board Elected",
+            "excerpt": "As the official web development society of Sri Sanghabodhi College, we are thrilled to announce that the members of the 1st official board of our society have been elected as of 26th January 2025. The elected board places G.K. Senuka Gunasekara as the president, I. Rashini Umandya Ilangasinghe as the vice-president, R.D.D. Vidunitha Chandradhasa as the secretary, Womuditha Wanigasundara as somebody, John Doe as somebody else, Foo Bar as somebody else and Jane Doe as somebody else. With that, our board of officials is ready to bring the innovations of tomorrow to today. Congratulations to all board members and good luck.",
+            "long_content": "",
+            "img": "",
+            "date": "26/01/2025"
+        },
+        "u0": {
+            "id": 0,
+            "title": "WebSpectres' Website Released",
+            "excerpt": "The official website of the WebSpectres' is now up and running.",
+            "long_content": "We, the web development society of Sri Sanghabodhi College released our official website on the 25th January of 2025. All projects, project releases, board decisions and changes will be posted here. You can contact us through the contact form on this website or send an email to the email mentioned in the contact section. Stay tuned for exciting and innovative projects in the future. Spectres out!",
+            "img": "",
+            "date": "25/01/2025"
+        }  
+    },
+    "contact_methods": {
+        "location": {
+            "content": "43MJ+4W3, A1, Nittambuwa",
+            "icon": "./imgs/icons/location.png",
+            "icon_alt": "Location Icon"
+        },
+        "email": {
+            "content": "webspectres@yahoo.com",
+            "icon": "./imgs/icons/email.png",
+            "icon_alt": "Email Icon"
+        },
+        "github": {
+            "content": "webspectres",
+            "icon": "./imgs/icons/github.png",
+            "icon_alt": "Github Logo",
+            "url": "https://github.com/webspectres"
+        },
+        "instagram": {
+            "content": "webspectres",
+            "icon": "./imgs/icons/instagram.png",
+            "icon_alt": "Instagram Logo",
+            "url": "https://instagram.com/webspectres"
+        },
+        "whatsapp": {
+            "content": "Web Spectres",
+            "icon": "./imgs/icons/whatsapp.png",
+            "icon_alt": "Whatsapp Logo",
+            "url": "https://whatsapp.com/channel/0029VaxGsLf59PwQ42msAp1y"
+        }
+    }
+}
