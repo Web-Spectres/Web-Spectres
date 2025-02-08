@@ -63,6 +63,22 @@ function popupOpen(title, content, img){
     let popup = document.getElementById("update-popup")
     let popupBox =  document.getElementById("update-popup-box");
     pTitle.innerHTML = title;
+
+    let hyperLinkReg = /{[^\|]+( )?\|\-( )?http(s)?:\/\/([a-zA-Z\-0-9]+\.)+[a-zA-Z\-]+(\?(([a-zA-Z0-9\_\-%]+(=[a-zA-Z0-9\_\-%]+)?&)+)?([a-zA-Z0-9\_\-%]+(=[a-zA-Z0-9\_\-%]+)?)|#[a-zA-Z0-9\_\-%]+)?}/g;
+
+    let hyperLinks = content.match(hyperLinkReg);
+
+    console.log(hyperLinks)
+    hyperLinks.forEach(val => {
+        let hyperLinkTag = `<a href="{|link|}">{|text|}</a>`;
+        let linkText = /^{[^\|]+( )?\|\-/;
+        let linkAddress = /http(s)?:\/\/([a-zA-Z\-0-9]+\.)+[a-zA-Z\-]+(\?(([a-zA-Z0-9\_\-%]+(=[a-zA-Z0-9\_\-%]+)?&)+)?([a-zA-Z0-9\_\-%]+(=[a-zA-Z0-9\_\-%]+)?)|#[a-zA-Z0-9\_\-%]+)?}$/g;
+        content = content.replace(val, strReplace(hyperLinkTag, {
+            text: val.match(linkText)[0].slice(1,-2), 
+            link: val.match(linkAddress)[0].slice(0,-1)
+        }));
+    })
+
     pContent.innerHTML = content;
     backdrop.style.display = "block";
     popup.style.display = "grid";
@@ -192,7 +208,7 @@ fetch("../templates.json")
         let val = updateObjs[i];
         updateCards.innerHTML += strReplace(updateCard, {
             "update-id": val.id,
-            "update-img": (val.img && typeof val.img === "string") ? val.img : "./imgs/updates/placeholder.png",
+            "update-img": (val.img && typeof val.img === "string") ? val.img : `./imgs/updates/placeholder.png`,
             "update-title": val.title,
             "update-date": val.date
         });
